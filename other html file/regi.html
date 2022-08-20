@@ -25,107 +25,53 @@
     </nav>
     <!-- Nav End -->
 
-    <!-- country -->
-    <form action="">
-        <label for="country">Please Select Your Counry:</label>
-        <select id="country" name="country" class="form-control">
-        <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
-    <optgroup id="country-optgroup-Asia" label="Asia">
-        <option value="AF" label="Afghanistan">Afghanistan</option>
-        <option value="AM" label="Armenia">Armenia</option>
-        <option value="AZ" label="Azerbaijan">Azerbaijan</option>
-        <option value="BH" label="Bahrain">Bahrain</option>
-        <option value="BD" label="Bangladesh">Bangladesh</option>
-        <option value="BT" label="Bhutan">Bhutan</option>
-        <option value="BN" label="Brunei">Brunei</option>
-        <option value="KH" label="Cambodia">Cambodia</option>
-        <option value="CN" label="China">China</option>
-        <option value="GE" label="Georgia">Georgia</option>
-        <option value="HK" label="Hong Kong SAR China">Hong Kong SAR China</option>
-        <option value="IN" label="India">India</option>
-        <option value="ID" label="Indonesia">Indonesia</option>
-        <option value="IR" label="Iran">Iran</option>
-        <option value="IQ" label="Iraq">Iraq</option>
-        <option value="IL" label="Israel">Israel</option>
-        <option value="JP" label="Japan">Japan</option>
-        <option value="JO" label="Jordan">Jordan</option>
-        <option value="KZ" label="Kazakhstan">Kazakhstan</option>
-        <option value="KW" label="Kuwait">Kuwait</option>
-        <option value="KG" label="Kyrgyzstan">Kyrgyzstan</option>
-        <option value="LA" label="Laos">Laos</option>
-        <option value="LB" label="Lebanon">Lebanon</option>
-        <option value="MO" label="Macau SAR China">Macau SAR China</option>
-        <option value="MY" label="Malaysia">Malaysia</option>
-        <option value="MV" label="Maldives">Maldives</option>
-        <option value="MN" label="Mongolia">Mongolia</option>
-        <option value="MM" label="Myanmar [Burma]">Myanmar [Burma]</option>
-        <option value="NP" label="Nepal">Nepal</option>
-        <option value="NT" label="Neutral Zone">Neutral Zone</option>
-        <option value="KP" label="North Korea">North Korea</option>
-        <option value="OM" label="Oman">Oman</option>
-        <option value="PK" label="Pakistan">Pakistan</option>
-        <option value="PS" label="Palestinian Territories">Palestinian Territories</option>
-        <option value="YD" label="People's Democratic Republic of Yemen">People's Democratic Republic of Yemen</option>
-        <option value="PH" label="Philippines">Philippines</option>
-        <option value="QA" label="Qatar">Qatar</option>
-        <option value="SA" label="Saudi Arabia">Saudi Arabia</option>
-        <option value="SG" label="Singapore">Singapore</option>
-        <option value="KR" label="South Korea">South Korea</option>
-        <option value="LK" label="Sri Lanka">Sri Lanka</option>
-        <option value="SY" label="Syria">Syria</option>
-        <option value="TW" label="Taiwan">Taiwan</option>
-        <option value="TJ" label="Tajikistan">Tajikistan</option>
-        <option value="TH" label="Thailand">Thailand</option>
-        <option value="TL" label="Timor-Leste">Timor-Leste</option>
-        <option value="TR" label="Turkey">Turkey</option>
-        <option value="TM" label="Turkmenistan">Turkmenistan</option>
-        <option value="AE" label="United Arab Emirates">United Arab Emirates</option>
-        <option value="UZ" label="Uzbekistan">Uzbekistan</option>
-        <option value="VN" label="Vietnam">Vietnam</option>
-        <option value="YE" label="Yemen">Yemen</option>
-    </optgroup>
-</select> <br> <br>
 
-        <!-- Trade Role -->
+    <div class="head">
+        <div class="container">
+            <div class="title">
+                <h1>sign up now!</h1>
+            </div>
+        </div>
+    </div>
 
-        <label>Please Select Your Trade Roll :</label>
-        <input type="radio" id="buyer" name="tradeRoll" value="BUYER">
-        <label for="buyer">Buyer</label>
-        <input type="radio" id="seller" name="tradeRoll" value="SELLER">
-        <label for="seller">Seller</label>
-        <input type="radio" id="both" name="tradeRoll" value="BOTH">
-        <label for="both">Both</label> <br> <br>
+    <div class="content">
+        <div class="container">
+            <form>
+                <div class="first">
+                    <label for="first">first name:</label>
+                    <div class="clear"></div>
+                    <input type="text" name="first name" id="first" placeholder="enter first name" required>
+                </div>
+                <div class="last">
+                    <label for="last">last name:</label>
+                    <div class="clear"></div>
+                    <input type="text" name="last name" id="last" placeholder="enter last name" required>
+                </div>
 
-        <!-- email -->
-        <label for="emails">Email Address <span>:</span></label>
-        <input type="email" id="emails" name="emails" placeholder="Please set email as a login name"> <br> <br>
 
-        <!-- -password -->
-        <label for="Lpwd">Login Password<span>:</span></label>
-        <input type="Lpassword" id="Lpwd" name="Lpwd" placeholder="Please set login password" minlength="8"> <br> <br>
-        <label for="Cpwd">Confirm Password<span>:</span></label>
-        <input type="Cpassword" id="Cpwd" name="Cpwd" placeholder="Please enter the login password again" minlength="8"> <br> <br>
 
-        <!-- COMPANY NAME -->
+                <div class="email">
+                    <label for="email">e-mail:</label>
+                    <div class="clear"></div>
+                    <input type="email" name="email" id="email" placeholder="enter email" required>
+                </div>
+                <div class="pass">
+                    <label for="pass">password:</label>
+                    <div class="clear"></div>
+                    <input type="password" name="pass" id="pass" placeholder="enter password" required>
+                </div>
+                <div class="cpass">
+                    <label for="Cpass">confirm password:</label>
+                    <div class="clear"></div>
+                    <input type="password" name="pass" id="Cpass" placeholder="enter again password" required>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="sign up">
+                </div>
+            </form>
+        </div>
+    </div>
 
-        <label for="name">Company Name <span>:</span></label>
-        <input type="text" id="name" name="name" placeholder="Must be legally registered company" value=""> <br> <br>
-
-        <!-- full Name -->
-        <label for="name">Full Name <span>:</span></label>
-        <input type="text" id="name" name="name" placeholder="First Name" value="">
-        <input type="text" id="name" name="name" placeholder="Last Name" value=""> <br> <br>
-
-        <!-- Phone Num -->
-        <label for="phone">Enter a phone number:</label>
-        <input type="tel" id="phone" name="phone" placeholder="880-17-00000000" pattern="[0-9]{3}-[0-9]{2}-[0-9]{8}" required><br><br>
-
-        <input type="checkbox" id="pubg" name="pubg" value="PUBG"> <span>
-        While creating a website account: I agree to abide by the XYZ.com Membership Agreement- Willing to receive emails from XYZ.com members and services</span>
-        <br> <br>
-        <button type="submit" class="registerbtn">Agree & Register</button>
-
-    </form>
 
 </body>
 
