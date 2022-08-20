@@ -674,3 +674,64 @@ form {
     margin: -12px 0 0 0px;
     background-color: white;
 }
+
+
+/* single product */
+
+@import 'https://fonts.googleapis.com/css?family=BenchNine:700';
+main {
+    width: 600px;
+    height: 400px;
+    border: 1px solid red;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    font-size: .55rem;
+    box-shadow: 0 0 10em black;
+}
+
+.ratings {
+    display: inline-block;
+}
+
+.colour-selection {
+    font-style: italic;
+    font-size: .75rem;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+aside {
+    width: 220px;
+    background: green;
+    height: 100%;
+    flex: 0 0 auto;
+}
+
+section,
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 1.7rem;
+}
+
+header .top {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 1rem;
+}
+
+.original-price {
+    text-decoration: line-through;
+    margin-right: .4em;
+}
+
+.offer-price {
+    color: red;
+}
